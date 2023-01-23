@@ -39,11 +39,75 @@ h1{
 
 }
 
+.gallery-container{
+
+    margin: 8em 0em;
+
+}
+
+.titulo-2{
+
+    color:#6d3cb8 ;
+    border-right: 0.1em solid aqua;
+    border-bottom: 0.1em solid aqua;
+    margin: 0 1em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .color-tittle{
 
     color:chocolate;
     font-size: 1.3em;
     font-weight: bold;
 
+
+}
+
+/*Galeria de images*/
+
+.figure-container{
+
+ 
+    border: solid 0.1em #706369;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+
+}
+
+.item-container{
+
+    margin:2em 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    padding:0 1em;
+    gap: 1em 1em;
+
+}
+
+.image-item{
+
+    width:100%;
+    transition: all 1.5s;
+    overflow: hidden;
+
+}
+
+.figure-item{
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.figcaption-item{
+
+    color:#6d3cb8;
+    font-family: 'Roboto', sans-serif;
+    margin: 1em 0;
 
 }
