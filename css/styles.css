@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family:'Roboto';
+    src: url('/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+
+    margin:0px;
+    padding:0px;
+
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+
+img{
+
+    order: 1;
+
+}
+
+h1{    
+
+    order: 2;
+    flex-grow: 2;
+    text-align: center;
+    color:brown;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.color-tittle{
+
+    color:chocolate;
+    font-size: 1.3em;
+    font-weight: bold;
+
+
+}
