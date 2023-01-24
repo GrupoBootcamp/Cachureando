@@ -19,6 +19,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: aqua;
+    border: 8px solid orange;
 
 }
 
@@ -33,7 +34,7 @@ h1{
     order: 2;
     flex-grow: 2;
     text-align: center;
-    color:brown;
+    color:#6d3cb8 ;
     font-family: 'Roboto', sans-serif;
     
 
@@ -60,9 +61,66 @@ h1{
     color:chocolate;
     font-size: 1.3em;
     font-weight: bold;
+    
+}
 
+/*Barra de navegacion*/
+
+.btn-menu{
+    
+    padding: .8rem;
+    margin-right: 0.5rem;
+    background-color: gray;
+    color: wheat;
+    border-radius: .5rem;
+    text-decoration:none;
 
 }
+
+#nav-container{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+
+}
+
+/*Contenido Nosotros*/
+
+.section-img{
+    width: 20%;
+}
+
+p{
+    order: 2 
+    
+}
+
+#Quienes_somos{
+
+    margin-top: 5em;
+
+}
+
+.contenido2{
+
+    font-size: 1em;
+    font-weight: bold;
+    color:rgb(66, 6, 99);
+
+    width:600px;
+    height:100px;
+    border:3px solid brown;
+    border-radius:22px;
+    background-color:#e3d193;
+    padding:10px;
+
+}
+
+.contenido{
+    display:flex;  
+    gap: .5rem;    
+ }
 
 /*Galeria de images*/
 
@@ -93,6 +151,14 @@ h1{
     width:100%;
     transition: all 1.5s;
     overflow: hidden;
+    transition: all 1.5s;
+
+}
+
+.image-item:hover{
+
+    transform: scale(1.2);
+
 
 }
 
@@ -111,3 +177,86 @@ h1{
     margin: 1em 0;
 
 }
+ /*Estilos Footer*/
+
+ footer{
+    text-align: center;
+    border: 8px solid orange;
+    margin-top: 20px;
+    background-color: rgb(132, 221, 221);
+    font-size:larger; color: blue;
+    font-family: "Roboto";
+  }
+
+  /* Estilo formulario de contacto*/
+
+
+  
+  #formulario-container{
+
+    font-family: "Roboto";
+    border: #6d3cb8 solid 0.1em;
+    color:orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5em;
+    border-radius: 15px;
+    background-color: rgba(66, 6, 99, 0.8);
+
+  } 
+
+  #formulario-container:hover{
+
+    background-color: rgba(66, 6, 99, 1);
+
+  }
+   
+  .form-item{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:0.5em 0;
+
+  }
+
+
+#contacto{
+
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#submit-button{
+
+width: 6em;
+border-radius: 15px;
+margin:1em 0em 0em 0em;
+font-family: 'Roboto', sans-serif;
+
+}
+
+#mensaje-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+  label{
+
+    text-align: center;
+    width: 8em;
+
+
+  }
+
+  main{
+
+    margin: 5em 0em;
+
+  }
